@@ -1,0 +1,13 @@
+.Nav {
+  z-index: 99;
+  height: 100vh;
+  width: 5vw;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: black;
+  color: white;
+  align-items: center;
+  text-align: center;
+  display: grid;
+}
