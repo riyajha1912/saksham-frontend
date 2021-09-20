@@ -118,6 +118,7 @@ img {
 .mvv-content {
   background: #1f2e6c;
   color: #adadad;
+  align-items: inherit;
 }
 
 .mvv-sub-heading,
@@ -139,9 +140,14 @@ img {
   padding-bottom: 0.5rem;
 }
 
-mvv-button {
+.mvv-button {
   border: none !important;
   border-color: #1f2e6c !important;
+}
+.mvv-button:active {
+  font-size: 20px;
+  background: #1f2e6c;
+  border-color: #1f2e6c;
 }
 
 .donate:hover {

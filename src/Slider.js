@@ -7,8 +7,8 @@ function Slider() {
   return (
     <>
       <div id="saksham-home" className="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
+        <div className="carousel-inner">
+          <div className="carousel-item active">
             <img
               src={slider1}
               className="d-block w-100 flex-column p-5"
@@ -19,15 +19,13 @@ function Slider() {
               <h5 className="slider-heading">
                 Give A Helping Hand To Those Who Need It.
               </h5>
-              <button className="btn" onClick="#">
-                Learn More
-              </button>
+              <button className="btn">Learn More</button>
             </div>
           </div>
           <div className="carousel-item ">
             <img
               src={slider2}
-              class="d-block w-100 flex-column p-5"
+              className="d-block w-100 flex-column p-5"
               alt="..."
             />
             <div className="carousel-caption d-none d-md-block">
@@ -37,9 +35,7 @@ function Slider() {
               <h5 className="slider-heading">
                 Make Someone's Life By Your Giving.
               </h5>
-              <button className="btn" onClick="#">
-                Learn More
-              </button>
+              <button className="btn">Learn More</button>
             </div>
           </div>
           <div className="carousel-item">
@@ -53,9 +49,7 @@ function Slider() {
               <h5 className="slider-heading">
                 There Is No Big Thing Than Your Concern.
               </h5>
-              <button className="btn" onClick="#">
-                Learn More
-              </button>
+              <button className="btn">Learn More</button>
             </div>
           </div>
         </div>
