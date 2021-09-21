@@ -2,6 +2,7 @@
 
 import React from "react";
 import { useState } from "react";
+import "../css/mvv.css";
 
 //use export default to export the function to the desired file, use any name in that destination file to import
 //MVV is the component

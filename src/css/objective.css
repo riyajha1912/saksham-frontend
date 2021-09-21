@@ -1,0 +1,44 @@
+.objective {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.objective-blue,
+.objective-white {
+  border: solid;
+}
+
+.objective-parent {
+  object-fit: contain;
+  color: #616161;
+  border-left: none !important;
+}
+
+.objective-heading {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  color: black !important;
+}
+
+.objective-blue {
+  background: #1f2e6c;
+}
+
+.objective-blue .objective-heading {
+  color: cornsilk !important;
+}
+
+.img {
+  border-right: none !important;
+  border-top-left-radius: 25px;
+}
+.desc {
+  border-left: none !important;
+  border-bottom-right-radius: 25px;
+}
+
+.objective-blue .objective-parent {
+  color: #adadad;
+}

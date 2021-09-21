@@ -1,0 +1,61 @@
+.mvv {
+  display: flex;
+  height: auto;
+  width: fit-content;
+  margin-bottom: 4rem;
+  padding-top: 0.5rem;
+  background: #1f2e6c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mvv-content {
+  background: #1f2e6c;
+  color: #adadad;
+  align-items: inherit;
+  box-sizing: border-box;
+}
+
+.mvv-sub-heading,
+.mvv-heading {
+  color: white !important;
+}
+.mvv-heading {
+  font-weight: 700;
+}
+
+.mvv-col-1 {
+  padding-right: 0 !important;
+  margin-right: 0;
+  padding-bottom: 0.5rem;
+}
+.mvv-col-2 {
+  padding-left: 0%;
+  margin-left: 0;
+  padding-bottom: 0.5rem;
+}
+
+.mvv-button {
+  border: none !important;
+  border-color: #1f2e6c !important;
+}
+.mvv-button:focus {
+  font-size: 20px;
+  font-weight: 700;
+  background: transparent;
+  border-color: none;
+  border: transparent !important;
+  outline: #1f2e6c;
+}
+
+.donate:hover {
+  background: white;
+  color: #000;
+}
+
+.mvv p {
+  top: 0;
+  position: -webkit-sticky;
+  position: sticky;
+}

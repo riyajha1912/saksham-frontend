@@ -1,10 +1,11 @@
 import React from "react";
+import "../css/objective.css";
 
 //images imported.
-import objective1 from "./static/images/objective1.png";
-import objective2 from "./static/images/objective2.png";
-import objective3 from "./static/images/objective3.png";
-import objective4 from "./static/images/objective4.png";
+import objective1 from "../static/images/objective1.png";
+import objective2 from "../static/images/objective2.png";
+import objective3 from "../static/images/objective3.png";
+import objective4 from "../static/images/objective4.png";
 
 //Objectives component.
 export default function Objectives() {

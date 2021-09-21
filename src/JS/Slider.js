@@ -1,7 +1,8 @@
 import { React } from "react";
-import slider1 from "./static/images/slider1.jpg";
-import slider2 from "./static/images/slider2.jpg";
-import slider3 from "./static/images/slider3.jpg";
+import "../css/slider.css";
+import slider1 from "../static/images/slider1.jpg";
+import slider2 from "../static/images/slider2.jpg";
+import slider3 from "../static/images/slider3.jpg";
 
 function Slider() {
   return (
