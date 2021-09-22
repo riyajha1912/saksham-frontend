@@ -9,6 +9,11 @@ html {
 .sidebar {
   grid-area: sidebar;
   padding-bottom: 30px;
+  height: "auto";
+  position: "fixed";
+  top: "50px";
+  left: "0";
+  z-index: "100";
 }
 
 .content {
