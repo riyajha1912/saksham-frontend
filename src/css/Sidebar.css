@@ -2,14 +2,16 @@
 
 .container-sidebar {
   width: 100%;
-  background-color: rgb(118, 196, 199);
   margin-left: 0;
+}
+
+#sidebar {
+  background-color: #101c54 !important;
 }
 
 .sidebar {
   width: 30%;
   height: 100%;
-  background-color: #54a;
   transition: 1s ease;
   position: relative;
 }
@@ -54,10 +56,10 @@
 .btn-toggle {
   display: inline-flex;
   align-items: center;
-  color: white;
+  /* color: white; */
   padding: 0.25rem 0.5rem;
   font-weight: 600;
-  color: rgba(0, 0, 0, 0.65);
+  /* color: rgba(0, 0, 0, 0.65); */
   background-color: transparent !important;
   border: 0;
 }
@@ -74,10 +76,6 @@
   content: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='rgba%280,0,0,.5%29' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/%3e%3c/svg%3e");
   transition: transform 0.35s ease;
   transform-origin: 0.5em 50%;
-}
-
-.btn-toggle[aria-expanded="true"] {
-  color: rgba(0, 0, 0, 0.85);
 }
 
 .btn-toggle:focus,
@@ -117,14 +115,14 @@
 .saksham {
   width: 100%;
   font-weight: 800;
-  color: black;
+  /* color: black; */
   overflow: hidden;
 }
 .item {
   font-weight: 600;
   margin-left: 20px;
   padding-left: 5px;
-  color: black !important;
+  color: #d4d5d8 !important;
   background-color: transparent !important;
 }
 

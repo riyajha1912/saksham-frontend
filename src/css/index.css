@@ -1,6 +1,7 @@
 body {
   min-height: 100vh;
   min-height: -webkit-fill-available;
+  background-color: #d4d5d8;
 }
 .container-fluid {
   width: 100%;
@@ -12,11 +13,7 @@ html {
 .sidebar {
   grid-area: sidebar;
   padding-bottom: 30px;
-  height: "auto";
-  position: "fixed";
-  top: "50px";
-  left: "0";
-  z-index: "100";
+  height: "auto" !important;
 }
 
 .content {

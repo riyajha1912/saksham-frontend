@@ -5,29 +5,13 @@ import { Year } from "./year";
 import icon from "../../static/images/slider1.jpg";
 
 const Journey = () => {
-  document.addEventListener("DOMContentLoaded", () => {
-    window.addEventListener("scroll", function () {
-      var element = document.getElementById("container-example");
-      var position = element.getBoundingClientRect();
-      // checking whether fully visible
-      if (position.top >= 0 && position.bottom <= window.innerHeight) {
-        element.classList.add("animate__animated");
-      } else {
-        element.classList.remove("animate__animated");
-      }
-    });
-  });
-
   return (
     <>
       <div className="container">
-        <span className="vertical" />
-        <div className="container-example ">
-          <div
-            className="item-container animate__animated animate__slideInRight"
-            id="container-example"
-          >
-            <Year year={"2011"} />
+        <div className=""></div>
+        <div className="container-example">
+          <div className="item-container">
+            <Year id={1} year={"2011"} />
             <Content
               id={1}
               heading={"Saksham"}
@@ -38,7 +22,7 @@ const Journey = () => {
             />
           </div>
           <div className="item-container">
-            <Year year={"2012"} />
+            <Year id={2} year={"2012"} />
             <Content
               id={2}
               heading={"Significant Efforts Made In 1 Year"}
@@ -48,7 +32,7 @@ const Journey = () => {
             />
           </div>
           <div className="item-container">
-            <Year year={"2013"} />
+            <Year id={3} year={"2013"} />
             <Content
               id={3}
               heading={"Brought Better change in society"}
@@ -58,7 +42,7 @@ const Journey = () => {
             />
           </div>
           <div className="item-container">
-            <Year year={"2014"} />
+            <Year id={4} year={"2014"} />
             <Content
               id={4}
               heading={"Emerging helping hand"}
@@ -68,7 +52,7 @@ const Journey = () => {
             />
           </div>
           <div className="item-container">
-            <Year year={"2015"} />
+            <Year id={5} year={"2015"} />
             <Content
               id={5}
               heading={"Humanity Together Programme"}
@@ -78,7 +62,7 @@ const Journey = () => {
             />
           </div>
           <div className="item-container">
-            <Year year={"2016"} />
+            <Year id={6} year={"2016"} />
             <Content
               id={6}
               heading={"Growing Network"}
@@ -88,7 +72,7 @@ const Journey = () => {
             />
           </div>
           <div className="item-container">
-            <Year year={"2017"} />
+            <Year id={7} year={"2017"} />
             <Content
               id={7}
               heading={"We Are Ready To Help"}
@@ -98,7 +82,7 @@ const Journey = () => {
             />
           </div>
           <div className="item-container">
-            <Year year={"2018"} />
+            <Year id={8} year={"2018"} />
             <Content
               id={8}
               heading={"Established As Emerging NGO"}
@@ -108,7 +92,7 @@ const Journey = () => {
             />
           </div>
           <div className="item-container">
-            <Year year={"2019"} />
+            <Year id={9} year={"2019"} />
             <Content
               id={9}
               heading={"Support in COVID-19"}
@@ -118,7 +102,7 @@ const Journey = () => {
             />
           </div>
           <div className="item-container">
-            <Year year={"2020"} />
+            <Year id={10} year={"2020"} />
             <Content
               id={10}
               heading={"Completed 10 Years Of Glorious Journey"}

@@ -15,13 +15,23 @@ import MisVisVal from "./JS/MVV";
 function Main() {
   return (
     <>
-      <div class="sidebar">
+      {/* <div
+        className="sidebar"
+        style={{
+          position: "fixed",
+          top: "0px",
+          left: "0",
+          zIndex: "100",
+        }}
+      >
         <Sidebar />
-      </div>
-      <Slider />
+      </div> */}
+      {/* <Slider />
       <Objectives />
-      <MisVisVal />
-      <Journey />
+      <MisVisVal /> */}
+      {/* <div className="container">
+        <Journey />
+      </div> */}
     </>
   );
 }
