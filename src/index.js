@@ -15,6 +15,8 @@ import MisVisVal from "./JS/MVV";
 function Main() {
   return (
     <>
+      {/*have to put the styling for sidebar here because it needs to be fixed to the side,
+     and doesnt happen if i put it in a file. If you can fix that, please do.*/}
       {/* <div
         className="sidebar"
         style={{
