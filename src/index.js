@@ -4,9 +4,9 @@ import ReactDOM from "react-dom";
 //import css file to activate css.
 import "./css/index.css";
 
-import Journey from "./JS/Journey";
+import Journey from "./JS/journey-components/Journey";
 //import all the components to render it inside the html.
-import Nav from "./JS/Nav";
+import Sidebar from "./JS/Sidebar/Sidebar";
 import Slider from "./JS/Slider";
 import Objectives from "./JS/Objectives";
 import MisVisVal from "./JS/MVV";
@@ -14,25 +14,15 @@ import MisVisVal from "./JS/MVV";
 //Main component created.
 function Main() {
   return (
-    <div className="container-fluid">
-      {/* <Journey /> */}
-      <div className="wrapper">
-        <div className="box sidebar">
-          <Nav />
-        </div>
-        <div className="box content">
-          <div className="slider">
-            <Slider />
-          </div>
-          <div>
-            <Objectives />
-          </div>
-          <div>
-            <MisVisVal />
-          </div>
-        </div>
+    <>
+      <div class="sidebar">
+        <Sidebar />
       </div>
-    </div>
+      <Slider />
+      <Objectives />
+      <MisVisVal />
+      <Journey />
+    </>
   );
 }
 

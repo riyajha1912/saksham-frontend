@@ -32,6 +32,7 @@ img {
   width: 100%;
   margin: auto;
   display: block;
+  border-radius: 2pc;
 }
 
 .carousel-caption {
@@ -46,6 +47,7 @@ img {
 .slider-content {
   opacity: 1;
   transform: translate(-19px, -36px);
+  transition: translate(-19px, -36px) 0.3s ease-in;
   top: 100%;
   left: 50%;
   font-family: "Amatic SC", cursive;
@@ -61,6 +63,11 @@ img {
   font-family: "Quicksand", sans-serif;
   font-weight: 700;
   transform: rotateX(0) translateZ(0) !important;
-  transition: 0.3s ease-in;
+  transition: transform 0.3s ease-in;
   z-index: 1000;
+}
+
+.coarousel-inner {
+  height: fit-content;
+  width: fit-content;
 }
