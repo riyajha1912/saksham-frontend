@@ -4,12 +4,13 @@ import ReactDOM from "react-dom";
 //import css file to activate css.
 import "./css/index.css";
 
-import Journey from "./JS/journey-components/Journey";
+import Journey from "./JS/Journey-components/Journey";
 //import all the components to render it inside the html.
-import Sidebar from "./JS/Sidebar/Sidebar";
+import Sidebar from "./JS/Sidebar-components/Sidebar";
 import Slider from "./JS/Slider";
 import Objectives from "./JS/Objectives";
 import MisVisVal from "./JS/MVV";
+import Messages from "./JS/Messages-components/Messages";
 
 //Main component created.
 function Main() {
@@ -17,7 +18,7 @@ function Main() {
     <>
       {/*have to put the styling for sidebar here because it needs to be fixed to the side,
      and doesnt happen if i put it in a file. If you can fix that, please do.*/}
-      {/* <div
+      <div
         className="sidebar"
         style={{
           position: "fixed",
@@ -27,13 +28,14 @@ function Main() {
         }}
       >
         <Sidebar />
-      </div> */}
-      {/* <Slider />
+      </div>
+      <div className="mainpage">
+        {/* <Slider />
       <Objectives />
       <MisVisVal /> */}
-      {/* <div className="container">
+        <Messages />
         <Journey />
-      </div> */}
+      </div>
     </>
   );
 }

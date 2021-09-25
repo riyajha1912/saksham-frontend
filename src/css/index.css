@@ -3,7 +3,9 @@ body {
   min-height: -webkit-fill-available;
   background-color: #d4d5d8;
 }
+
 .container-fluid {
+  height: 100%;
   width: 100%;
 }
 

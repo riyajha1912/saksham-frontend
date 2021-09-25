@@ -22,10 +22,5 @@ export const handleCollapse = () => {
       var s = id[i].style;
       s.display = s.display === "none" ? "inline-block" : "none";
     }
-    // if (button.disabled === true) {
-    //   button.disabled = false;
-    // } else {
-    //   button.disabled = "true";
-    // }
   };
 };

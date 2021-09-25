@@ -27,8 +27,6 @@ import { faBackward } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Sidebar() {
-  // const [sidebar_small, setSidebar_small] = useState("false");
-
   return (
     <div class="container-sidebar">
       <div
@@ -66,21 +64,20 @@ function Sidebar() {
         <ul className="list-unstyled ps-0 ">
           <li className="mb-1">
             <button
-              className="btn align-items-center rounded item item-home"
+              className="btn align-items-center rounded sidebar-item"
               href="#"
             >
               <span style={{ paddingRight: "5px" }}>
                 <FontAwesomeIcon icon={faHome} />
               </span>
-              <span className="text change animate__animated animate__bounceInDown">
-                {" "}
-                Home{" "}
+              <span className="text change animate__animated animate__bounceInDown item-home">
+                Home
               </span>
             </button>
           </li>
           <li className="mb-1">
             <button
-              className="btn btn-toggle align-items-center rounded collapsed item"
+              className="btn btn-toggle align-items-center rounded collapsed sidebar-item"
               data-bs-toggle="collapse"
               data-bs-target="#about-us"
               aria-expanded="false"
@@ -115,7 +112,7 @@ function Sidebar() {
           </li>
           <li className="mb-1">
             <button
-              className="btn btn-toggle align-items-center rounded collapsed item"
+              className="btn btn-toggle align-items-center rounded collapsed sidebar-item"
               data-bs-toggle="collapse"
               data-bs-target="#our-works"
               aria-expanded="false"
@@ -199,7 +196,7 @@ function Sidebar() {
           </li>
           <li className="mb-1">
             <button
-              className="btn btn-toggle align-items-center rounded collapsed item"
+              className="btn btn-toggle align-items-center rounded collapsed sidebar-item"
               data-bs-toggle="collapse"
               data-bs-target="#campaign"
               aria-expanded="false"
@@ -208,13 +205,13 @@ function Sidebar() {
                 <FontAwesomeIcon icon={faRoad} />
               </span>
               <span className="text change animate__animated animate__bounceInDown">
-                Campaign{" "}
+                Campaign
               </span>
             </button>
             <div className="collapse" id="campaign">
               <ul className="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                 <li>
-                  <a href="#" className="link-dark rounded item">
+                  <a href="#" className="link-dark rounded sidebar-item">
                     <span style={{ paddingRight: "5px" }}>
                       <FontAwesomeIcon icon={faSchool} />
                     </span>
@@ -222,7 +219,7 @@ function Sidebar() {
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="link-dark rounded item">
+                  <a href="#" className="link-dark rounded sidebar-item">
                     <span style={{ paddingRight: "5px" }}>
                       <FontAwesomeIcon icon={faUtensilSpoon} />
                     </span>
@@ -230,7 +227,7 @@ function Sidebar() {
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="link-dark rounded item">
+                  <a href="#" className="link-dark rounded sidebar-item">
                     <span style={{ paddingRight: "5px" }}>
                       <FontAwesomeIcon icon={faDonate} />
                     </span>
@@ -242,7 +239,7 @@ function Sidebar() {
           </li>
           <li className="mb-1">
             <button
-              className="btn btn-toggle align-items-center rounded collapsed item"
+              className="btn btn-toggle align-items-center rounded collapsed sidebar-item"
               data-bs-toggle="collapse"
               data-bs-target="#join-together"
               aria-expanded="false"
@@ -257,7 +254,7 @@ function Sidebar() {
             <div className="collapse" id="join-together">
               <ul className="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                 <li>
-                  <a href="#" className="link-dark rounded item">
+                  <a href="#" className="link-dark rounded sidebar-item">
                     <span style={{ paddingRight: "5px" }}>
                       <FontAwesomeIcon icon={faPerson} />
                     </span>
@@ -265,7 +262,7 @@ function Sidebar() {
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="link-dark rounded item">
+                  <a href="#" className="link-dark rounded sidebar-item">
                     <span style={{ paddingRight: "5px" }}>
                       <FontAwesomeIcon icon={faBusinessTime} />
                     </span>
@@ -273,7 +270,7 @@ function Sidebar() {
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="link-dark rounded item">
+                  <a href="#" className="link-dark rounded sidebar-item">
                     <span style={{ paddingRight: "5px" }}>
                       <FontAwesomeIcon icon={faInstitution} />
                     </span>
@@ -281,7 +278,7 @@ function Sidebar() {
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="link-dark rounded item">
+                  <a href="#" className="link-dark rounded sidebar-item">
                     <span style={{ paddingRight: "5px" }}>
                       <FontAwesomeIcon icon={faUniversity} />
                     </span>
@@ -289,7 +286,7 @@ function Sidebar() {
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="link-dark rounded item">
+                  <a href="#" className="link-dark rounded sidebar-item">
                     <span style={{ paddingRight: "5px" }}>
                       <FontAwesomeIcon icon={faHandsHelping} />
                     </span>
@@ -297,7 +294,7 @@ function Sidebar() {
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="link-dark rounded item">
+                  <a href="#" className="link-dark rounded sidebar-item">
                     <span style={{ paddingRight: "5px" }}>
                       <FontAwesomeIcon icon={faNetworkWired} />
                     </span>

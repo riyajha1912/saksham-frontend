@@ -6,7 +6,7 @@
 }
 
 #sidebar {
-  background-color: #101c54 !important;
+  background-color: gray !important;
 }
 
 .sidebar {
@@ -29,7 +29,6 @@
 
 .sidebar_small {
   width: 25% !important;
-  /* animation: sidebar_hide 4s forwards step-end; */
 }
 
 .collapse-sidebar {
@@ -56,10 +55,9 @@
 .btn-toggle {
   display: inline-flex;
   align-items: center;
-  /* color: white; */
+  color: white;
   padding: 0.25rem 0.5rem;
   font-weight: 600;
-  /* color: rgba(0, 0, 0, 0.65); */
   background-color: transparent !important;
   border: 0;
 }
@@ -118,7 +116,7 @@
   /* color: black; */
   overflow: hidden;
 }
-.item {
+.sidebar-item {
   font-weight: 600;
   margin-left: 20px;
   padding-left: 5px;
@@ -126,8 +124,8 @@
   background-color: transparent !important;
 }
 
-.item:hover,
-.item:focus {
+.sidebar-item:hover,
+.sidebar-item:focus {
   color: rgba(0, 0, 0, 0.85) !important;
   background-color: #d2f4ea !important;
   font-size: 1rem;
@@ -135,7 +133,6 @@
 }
 .item-home {
   padding-left: 1.3rem;
-  transition: 1s ease;
 }
 
 .cButton::after {
