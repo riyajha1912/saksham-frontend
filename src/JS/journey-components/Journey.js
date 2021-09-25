@@ -1,13 +1,11 @@
 import React from "react";
 import "../../css/journey.css";
 import "react-vertical-timeline-component/style.min.css";
-
 import elements from "./Elements";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
-
 const Journey = () => {
   return (
     <>
@@ -28,7 +26,7 @@ const Journey = () => {
                 <div className="content">
                   <div className="text-content">
                     <div className="image">
-                      <img src={element.icon} />
+                      <img src={element.icon} alt="icon"></img>
                     </div>
                     <h3 className="vertical-timeline-element-title">
                       {element.title}
