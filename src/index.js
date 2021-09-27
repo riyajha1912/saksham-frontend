@@ -30,10 +30,10 @@ function Main() {
         {/* <Sidebar /> */}
       </div>
       <div className="mainpage">
-        {/* <Slider /> */}
+        <Slider />
         {/* <Objectives />
       <MisVisVal /> */}
-        {/* <Messages /> */}
+        <Messages />
         <Journey />
       </div>
     </>
