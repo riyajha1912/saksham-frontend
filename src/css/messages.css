@@ -94,18 +94,19 @@
     grid-template-columns: repeat(1, 180px [col-start]);
     justify-content: center;
   }
+  .item-messages {
+    margin-left: -3.5rem !important;
+  }
 }
 
 /*galaxy fold*/
 @media only screen and (min-width: 280px) and (max-width: 319px) {
   .container-messages {
-    grid-template-columns: repeat(1, 50px [col-start]);
+    grid-template-columns: repeat(1, 180px [col-start]);
     justify-content: center;
   }
   .item-messages {
-    margin-left: -6rem !important;
-    width: 15pc;
-    height: 25.5pc;
+    margin-left: 4rem !important;
   }
 }
 
@@ -148,6 +149,6 @@
     justify-content: space-evenly;
   }
   .item-messages {
-    left: 0 !important;
+    left: 0rem !important;
   }
 }
