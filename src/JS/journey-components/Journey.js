@@ -19,6 +19,12 @@ const Journey = () => {
           {elements.map((element) => {
             return (
               <VerticalTimelineElement
+                className="journey-timeline"
+                contentStyle={{ background: "#ff6347", color: "#fff" }}
+                contentArrowStyle={{
+                  borderRight: "7px solid #ff6347 ",
+                }}
+                iconStyle={{ background: "yellow", color: "#fff" }}
                 key={element.id}
                 date={element.date}
                 dateClassName="date"

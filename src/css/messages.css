@@ -91,11 +91,11 @@
 /*Phones*/
 @media only screen and (min-width: 320px) {
   .container-messages {
-    grid-template-columns: repeat(1, 180px [col-start]);
+    grid-template-columns: repeat(1, 200px [col-start]);
     justify-content: center;
   }
   .item-messages {
-    margin-left: -3.5rem !important;
+    margin-left: 3em !important;
   }
 }
 
@@ -113,13 +113,12 @@
 /*iPhone 5*/
 @media only screen and (max-width: 320px) and (max-height: 568px) {
   .container-messages {
-    grid-template-columns: repeat(1, 180px [col-start]);
+    grid-template-columns: repeat(1, 200px [col-start]);
     justify-content: center;
   }
 
   .item-messages {
-    width: 150%;
-    left: 10%;
+    left: 1em;
   }
 
   .item-messages .item-pic {
@@ -132,13 +131,12 @@
 /*iPad*/
 @media only screen and (min-width: 768px) and (max-width: 2048px) and (min-height: 600px) and (max-height: 2732px) {
   .container-messages {
-    grid-template-columns: repeat(2, 100px [col-start]);
-    justify-content: space-evenly;
-    grid-column-gap: 10%;
+    grid-template-columns: repeat(2, 180px [col-start]);
+    justify-content: space-around;
   }
 
   .item-messages {
-    left: -1.5rem !important;
+    left: -6em !important;
   }
 }
 
