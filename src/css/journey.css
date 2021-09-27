@@ -40,8 +40,8 @@ h3 {
 .vertical-timeline--two-columns
   .vertical-timeline-element-content
   .vertical-timeline-element-date {
-  font-size: 63px !important;
-  top: -4rem !important;
+  font-size: 200% !important;
+  top: -4% !important;
   color: black;
   font-weight: 700;
 }
@@ -73,22 +73,22 @@ h3 {
 }
 
 .vertical-timeline--animate .vertical-timeline-element-icon.bounce-in {
-  background: aliceblue;
+  background: #ffff1a;
 }
 
 .vertical-timeline--animate .vertical-timeline-element-icon.bounce-in:hover {
-  background-color: orange;
+  background-color: #9728f9;
 }
 .vertical-timeline--animate
   .vertical-timeline-element-icon.bounce-in:hover
   + .vertical-timeline-element-content
   .vertical-timeline-element-date {
-  font-size: 80px !important;
+  font-size: 150% !important;
 }
 .vertical-timeline--animate
   .vertical-timeline-element-icon.bounce-in:hover
   + .vertical-timeline-element-content.bounce-in {
-  background-color: orangered;
+  background-color: #9728f9;
 }
 
 .date,
@@ -98,7 +98,7 @@ h3 {
 }
 
 .vertical-timeline-element-content.bounce-in:nth-child(even):not(.vertical-timeline-element-content--left) {
-  width: 33pc !important;
+  width: 40% !important;
 }
 
 .vertical-timeline-element-content:nth-child(odd):not(.vertical-timeline-element-content--left) {
@@ -118,5 +118,50 @@ h3 {
 }
 
 .vertical-timeline-element-content.bounce-in {
-  background-color: rgb(190, 187, 187);
+  background-color: #ff6347;
+}
+
+/*Phones*/
+@media only screen and (min-width: 320px) {
+  h1.title {
+    width: 10%;
+  }
+  .vertical-timeline-element-content.bounce-in:nth-child(even):not(.vertical-timeline-element-content--left) {
+    width: 150% !important;
+  }
+
+  .vertical-timeline {
+    left: 2em;
+  }
+}
+
+/*galaxy fold*/
+@media only screen and (min-width: 280px) and (max-width: 319px) {
+  .vertical-timeline-element-content.bounce-in:nth-child(even):not(.vertical-timeline-element-content--left) {
+    width: 150% !important;
+  }
+}
+
+/*iPhone 5*/
+@media only screen and (max-width: 320px) and (max-height: 568px) {
+  .vertical-timeline-element-content.bounce-in:nth-child(even):not(.vertical-timeline-element-content--left) {
+    width: 170% !important;
+  }
+}
+
+/*iPad*/
+@media only screen and (min-width: 768px) and (max-width: 2048px) and (min-height: 600px) and (max-height: 2732px) {
+  .vertical-timeline-element-content.bounce-in:nth-child(even):not(.vertical-timeline-element-content--left) {
+    width: 100% !important;
+  }
+}
+
+/*laptops and bigger screens*/
+@media only screen and (min-width: 1224px) {
+  .vertical-timeline-element-content.bounce-in:nth-child(even):not(.vertical-timeline-element-content--left) {
+    width: 40% !important;
+  }
+  h1.title {
+    width: 50%;
+  }
 }

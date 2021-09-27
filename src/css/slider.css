@@ -2,72 +2,88 @@
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Quicksand:wght@300&display=swap");
 
 #saksham-home {
-  display: flex;
-  height: 70vh;
-  width: fit-content;
+  display: block;
+  height: 100%;
+  width: 100%;
 }
 
-.btn {
-  background-color: #1f2e6c;
+.saksham-slider .slider-text-content .learn {
+  background-color: #9728f9;
   color: cornsilk;
   align-self: center;
   opacity: 1;
 }
-.btn:hover {
+
+.saksham-slider .slider-text-content .learn:hover {
   color: silver;
 }
-.carousel-item {
-  height: fit-content;
-  min-height: 100px;
-  margin: auto;
-  background: no-repeat scroll center scroll;
-  background-size: contain;
+
+.saksham-slider-content {
+  height: 100%;
+  min-height: 50%;
+  position: relative;
 }
-.carousel-item::before {
+
+.saksham-slider-content::before {
   content: "";
   display: block;
   position: absolute;
 }
-img {
-  width: 100%;
+
+img .saksham-slider-image {
+  max-height: 100%;
+  max-width: 100%;
   margin: auto;
   display: block;
-  border-radius: 2pc;
 }
 
-.carousel-caption {
-  width: fit-content;
-  height: fit-content;
+.slider-text-content {
+  width: 65%;
+  height: 70%;
   /* Center vertically and horizontally */
   position: absolute;
-  top: 50%;
-  left: 50%;
-  margin: -50px -50px -50px -15rem;
+  top: 35%;
+  left: 20%;
 }
+
 .slider-content {
   opacity: 1;
   transform: translate(-19px, -36px);
   transition: translate(-19px, -36px) 0.3s ease-in;
   top: 100%;
-  left: 50%;
   font-family: "Amatic SC", cursive;
-  font-size: 28px;
+  font-size: 140%;
   font-weight: 400;
-  height: 6px;
-  line-height: 30px;
-  z-index: 1000;
+  height: 2%;
+  line-height: 30%;
+  z-index: 1;
+  text-align: center;
 }
 
 .slider-heading {
-  font-size: 30px;
+  text-align: center;
+  font-size: 150%;
   font-family: "Quicksand", sans-serif;
   font-weight: 700;
+  overflow-wrap: break-word;
   transform: rotateX(0) translateZ(0) !important;
-  transition: transform 0.3s ease-in;
-  z-index: 1000;
+  transition: transform 3s ease-in;
+  z-index: 1;
 }
 
-.coarousel-inner {
-  height: fit-content;
-  width: fit-content;
+.saksham-slider {
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  #saksham-home {
+    left: 25%;
+  }
+}
+
+@media screen and (max-width: 2560px) {
+  #saksham-home {
+    left: 0;
+  }
 }

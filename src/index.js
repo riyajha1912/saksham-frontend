@@ -27,14 +27,14 @@ function Main() {
           zIndex: "100",
         }}
       >
-        <Sidebar />
+        {/* <Sidebar /> */}
       </div>
       <div className="mainpage">
-        {/* <Slider />
-      <Objectives />
+        <Slider />
+        {/* <Objectives />
       <MisVisVal /> */}
-        <Messages />
-        <Journey />
+        {/* <Messages /> */}
+        {/* <Journey /> */}
       </div>
     </>
   );
