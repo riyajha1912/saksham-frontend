@@ -23,11 +23,10 @@ const Journey = () => {
                 date={element.date}
                 dateClassName="date"
               >
-                <div className="content">
+                <div className="journey-content">
                   <div className="text-content">
-                    <div className="image">
-                      <img src={element.icon} alt="icon"></img>
-                    </div>
+                    <img src={element.icon} alt="icon" className="image"></img>
+
                     <h3 className="vertical-timeline-element-title">
                       {element.title}
                     </h3>
