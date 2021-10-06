@@ -10,7 +10,7 @@ import Sidebar from "./JS/Sidebar-components/Sidebar";
 import Slider from "./JS/Slider";
 import Objectives from "./JS/Objectives";
 import MisVisVal from "./JS/MVV";
-import Messages from "./JS/Messages-components/Messages";
+import Messages from "./JS/Messages-components/mainMessages";
 
 //Main component created.
 function Main() {

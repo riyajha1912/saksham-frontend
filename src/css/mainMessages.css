@@ -1,0 +1,21 @@
+.MsgBoxContainer {
+  margin: 0 auto;
+  padding: 1em;
+  width: 84%;
+}
+
+.MsgBoxContainer p {
+  color: #9d9d9e;
+}
+
+.MsgCarousel {
+  width: 100%;
+  padding-left: 1em !important;
+  background: #ffdd00;
+  border-radius: 1em;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  margin: 0 1em;
+}
